@@ -9,7 +9,7 @@ const isConnected = computed(() => connectionStatus.value === 'connected')
 const messages = ref([])
 const messageToSend = ref('')
 
-const SERVER_URL = 'https://5aae0fc6b9c5.ngrok-free.app'
+const SERVER_URL = 'wss://bluewater-tech-expo-2025-pman-sockets.onrender.com'
 
 const isLooping = ref(true)
 
